@@ -23,8 +23,8 @@
 
 DOCUMENTATION = '''
 ---
-module: win_timezone
-version_added: "2.1"
+module: win_timezone2
+version_added: "2.2"
 short_description: Sets Windows machine timezone
 description:
     - Sets machine time to the specified timezone, the module will check if the provided timezone is supported on the machine.
