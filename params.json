@@ -1,6 +1,6 @@
 {
   "name": "Ansible",
   "tagline": "My Playbooks and Scripts",
-  "body": "### Welcome to GitHub Modules Repo.\r\n\r\n\r\n### Authors and Contributors\r\nCopyright Balders &copy;2016\r\n\r\n### Support or Contact\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact ME](baldersd@hotmail.com) and we’ll help you sort it out.\r\nbaldersd@hotmail.com\r\n",
+  "body": "### Welcome to my \"Windows Modules\" for Ansible GitHub Repo.\r\n\r\nWindows Remote Nodes Pre-Reqs:\r\n--------------------------------\r\nPRE-Windows 2012 there are some requirements:\r\n\r\n    Needs Winrm Core Framework installed.\r\n    Needs Powershell 3.0 min installed.\r\n    (above have dependency on .NET4 framework) – bulky install.\r\n\r\nGeneral Requirements (all Windows):\r\n\r\n    If we want to use WinRM over HTTPS --- needs a non-self-signed “server auth” certificate installed into localmachine\\my ----can generate this with powershell or a windows CA.\r\n    Needs the winrm qc issued to open firewall ports\r\n    If we want to add ports manually need tcp 5985-5986\r\n    +Need to open icmp v4 echo.\r\n\r\n### Authors and Contributors\r\nCopyright Balders &copy;2016\r\n\r\n### Support or Contact\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/pages).\r\n\r\nFor information about this repo please [contact ME](baldersd@hotmail.com) and I will try to assist.\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }

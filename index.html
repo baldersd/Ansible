@@ -20,7 +20,25 @@
 
     <section class="main-content">
       <h3>
-<a id="welcome-to-github-modules-repo" class="anchor" href="#welcome-to-github-modules-repo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Modules Repo.</h3>
+<a id="welcome-to-my-windows-modules-for-ansible-github-repo" class="anchor" href="#welcome-to-my-windows-modules-for-ansible-github-repo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to my "Windows Modules" for Ansible GitHub Repo.</h3>
+
+<h2>
+<a id="windows-remote-nodes-pre-reqs" class="anchor" href="#windows-remote-nodes-pre-reqs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Windows Remote Nodes Pre-Reqs:</h2>
+
+<p>PRE-Windows 2012 there are some requirements:</p>
+
+<pre><code>Needs Winrm Core Framework installed.
+Needs Powershell 3.0 min installed.
+(above have dependency on .NET4 framework) – bulky install.
+</code></pre>
+
+<p>General Requirements (all Windows):</p>
+
+<pre><code>If we want to use WinRM over HTTPS --- needs a non-self-signed “server auth” certificate installed into localmachine\my ----can generate this with powershell or a windows CA.
+Needs the winrm qc issued to open firewall ports
+If we want to add ports manually need tcp 5985-5986
++Need to open icmp v4 echo.
+</code></pre>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
@@ -30,8 +48,9 @@
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="baldersd@hotmail.com">contact ME</a> and we’ll help you sort it out.
-<a href="mailto:baldersd@hotmail.com">baldersd@hotmail.com</a></p>
+<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a>.</p>
+
+<p>For information about this repo please <a href="baldersd@hotmail.com">contact ME</a> and I will try to assist.</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/baldersd/Ansible">Ansible</a> is maintained by <a href="https://github.com/baldersd">baldersd</a>.</span>
