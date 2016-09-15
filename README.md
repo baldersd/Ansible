@@ -21,6 +21,7 @@ General Requirements (all Windows):
 ------------------------------
 Sample PS1:
 ------------------------------
+<pre>
 #!powershell
 # WANT_JSON
 # POWERSHELL_COMMON
@@ -32,3 +33,4 @@ $result = New-Object psobject @{
     changed = $false
 };
 Exit-Json $result;
+</pre>
