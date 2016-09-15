@@ -18,3 +18,17 @@ General Requirements (all Windows):
 -	If we want to add ports manually need tcp 5985-5986
 -	+Need to open icmp v4 echo.
 
+------------------------------
+Sample PS1:
+------------------------------
+#!powershell
+# WANT_JSON
+# POWERSHELL_COMMON
+$params = Parse-Args $args $true;
+#use this for intercepting the args --> #$data = Get-Attr $params "data" "pong";
+
+$data = Get-Process -Name lsass | ft | Out-File c:\result.txt
+$result = New-Object psobject @{
+    changed = $false
+};
+Exit-Json $result;
